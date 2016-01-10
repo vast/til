@@ -2,7 +2,7 @@
 
 `console.time` и `console.timeEnd` замеряют и выводят время в миллисекундах, потраченное на выполнение кода:
 
-```
+```javascript
 console.time('#calculateSpreads')
 spreads.forEach(function(spread) {
   spread.init();
