@@ -1,6 +1,6 @@
-# requestIdleCallback
+## requestIdleCallback
 
-В 47-м Хроме у `requestAnimationFrame` появился напарник — функция `requestIdleCallback`. Браузер запустит переденный ей коллбек в свободное от работы время. Как и когда использовать —  читайте [Google Developers](https://developers.google.com/web/updates/2015/08/using-requestidlecallback).
+В 47-м Хроме у `requestAnimationFrame` появился напарник — функция `requestIdleCallback`. Браузер запустит переданный ей колбек в свободное от работы время. Как и когда использовать —  читайте [Google Developers](https://developers.google.com/web/updates/2015/08/using-requestidlecallback).
 
 В остальных браузерах ее пока нет, но есть что-то похожее:
 
