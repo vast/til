@@ -1,4 +1,4 @@
-## Использовать ES6/ES2015 в Middleman 4
+## Как использовать ES6/ES2015 в Middleman 4
 
 Middleman 4 работает с Sprockets 3.x, который давно умеет ES6. Устанавливаем `sprockets-es6` и
 просим `middleman-sprockets` обрабатывать и `.es6` файлы:
