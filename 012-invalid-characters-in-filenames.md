@@ -1,6 +1,6 @@
 ## About filenames
 
-There are a lot of [characters invalid in filenames](https://en.wikipedia.org/wiki/Filename). In short the following characters should not be used in filenames:
+There are some [characters that can't be used in filenames](https://en.wikipedia.org/wiki/Filename#Reserved_characters_and_words):
 
 ```
 / \ ? * : | " < >
