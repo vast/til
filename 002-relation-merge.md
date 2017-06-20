@@ -1,6 +1,6 @@
-## About `Relation#merge`
+## Про `Relation#merge`
 
-`#merge` allows you to merge AR relations. So instead of:
+`#merge` позволяет объединять связи ActiveRecord. Вместо такого:
 
 ```ruby
 class Message < ActiveRecord::Base
@@ -13,7 +13,7 @@ class Dialog < ActiveRecord::Base
 end
 ```
 
-You could do:
+Можно делать так:
 
 ```ruby
 class Dialog < ActiveRecord::Base
