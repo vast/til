@@ -1,6 +1,6 @@
-## About `#safe_constantize`
+## Про `#safe_constantize`
 
-The `String#constantize` method converts a string to the constant (class, module) that the string contains or throws a `NameError` if there is no such constant.
+Метод `String#constantize` конвертирует строку в константу (класс, модуль) или бросает `NameError`, если такой константы нет.
 
 ```ruby
 def category
@@ -14,7 +14,7 @@ rescue
 end
 ```
 
-Fortunately, there is `#safe_constantize` which returns `nil` if there is no such constant:
+К счастью, обработать отсутствие константы можно более эффективно. Для этого предусмотрен `#safe_constantize`, который возвращает `nil` если такой константы нет:
 
 ```ruby
 def category_class
