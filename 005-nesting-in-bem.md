@@ -1,14 +1,14 @@
-## About nesting in BEM
+## Про вложенность в БЭМ
 
-In BEM blocks should have plain structure. There is no need to repeat DOM nesting in BEM classes:
+В БЭМ блоки должны иметь плоскую структуру. Не нужно повторять вложенность ДОМа в классах БЭМ:
 
 ```css
 .nav__item__link { }
 ```
 
-You won't be able to reuse this element in another context or refactor later.
+Иначе, у вас не получится переиспользовать элемент в другом контексте и усложнит рефакторинг.
 
-To reflect nesting it's enough to use only DOM:
+Для выражения вложенности хватит ДОМа:
 
 ```html
 <ul class="nav">
