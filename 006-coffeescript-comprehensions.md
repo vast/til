@@ -1,6 +1,6 @@
-## How to use comprehensions in CoffeeScript
+## Как пользоваться упрощениями в CoffeeScript
 
-Take advantage of comprehensions whenever possible. Instead of:
+Пользуйтесь упрощениями, если это возможно. Вместо:
 
 ```coffee
 results = []
@@ -9,13 +9,13 @@ for item in array
   results.push(item.name)
 ```
 
-Use:
+Используйте:
 
 ```coffee
 results = (item for item in array)
 ```
 
-With filtering:
+А если фильтруете:
 
 ```coffee
 inputs = (input for input in inputs when input.type isnt "hidden")
