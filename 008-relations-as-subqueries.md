@@ -1,6 +1,6 @@
-## About Using Relations as Subqueries
+## Про использование Рилейшенов для подзапросов
 
-Instead of using `pluck` + `where` combo which runs two queries:
+Вместо использования комбинации `pluck` + `where`, которая выполняется двумя запросами:
 
 ```ruby
 project_ids = user.projects.pluck(:id)
@@ -9,7 +9,7 @@ Task.where(project_id: project_ids)
 # SELECT * FROM tasks WHERE project_id IN (....)
 ```
 
-You can use relation directly and have only one query:
+Можно использовать рилейшен напрямую и обойтись одним запросом:
 
 ```ruby
 Task.where(project_id: user.projects)
